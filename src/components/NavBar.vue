@@ -1,6 +1,6 @@
 <template>
     <header class="flex justify-between items-center p-6 bg-opacity-50 relative z-20">
-        <div class="text-secondary text-3xl font-bold">LOGO?</div>
+        <div class="text-text text-3xl font-bold"></div>
         <!-- Mobile Toggle Button -->
          <div class="md:hidden z-30">
             <button type="button" 
@@ -17,12 +17,12 @@
 
         <!-- Navbar Link -->
          <nav
-         :class="['fixed inset-0 z-20 flex-col items-center justify-center bg-background md:bg-transparent md:relative md:flex md:justify-between md:flex-row',
+         :class="['fixed inset-0 z-20 flex flex-col items-center justify-center bg-background md:bg-transparent md:relative md:flex md:justify-between md:flex-row',
          isMenuOpen ? 'block' : 'hidden']"
          >
             <ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0">
                 <li v-for="item in Menu" :key="item.name">
-                    <a :href="item.href" class="block text-secondary transition hover:text-primary ease-linear test-2xl md:text-lg"
+                    <a :href="item.href" class="block text-text transition hover:text-accent ease-linear text-2xl md:text-lg"
                     @click="scrollToSection(item.href)"
                     >
                         {{ item.name }}
@@ -39,6 +39,7 @@ const Menu =ref([
     {name:'About Me', href:'#about'},
     {name:'Projects', href:'#projects'},
     {name:'Contact', href:'#contact'},
+    {name:'Game?', href:'#game'},
 ]);
 
 const isMenuOpen = ref(false);
