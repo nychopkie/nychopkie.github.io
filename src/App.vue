@@ -1,11 +1,15 @@
-<script setup>
-import Cbutton from './components/CButton.vue'
-</script>
-
 <template>
-  <div>
-    <h1> in dev, in test lol</h1>
+  <div class="bg-background min-h-screen">
+    <NavBar />
   </div>
-  <Cbutton>hehehahah</Cbutton>
+
 </template>
+
+<script setup>
+import { defineAsyncComponent } from 'vue';
+
+// import Components Asyncronously
+const NavBar = defineAsyncComponent(() => import('./components/NavBar.vue'));
+const HeroSection = defineAsyncComponent(() => import('./components/HeroSection.vue'));
+</script>
 
