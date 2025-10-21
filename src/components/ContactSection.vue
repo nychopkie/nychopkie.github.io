@@ -1,5 +1,5 @@
 <template>
-    <section class="relative w-full h-screen flex items-center justify-center" data-aos="fade-up">
+    <section class="relative w-full h-screen flex items-center justify-center" data-aos="fade-up" id="contact">
         <h1 class="">Lets keep in touch!</h1>
         <!-- contacts to put:
          1. Currently @ HKUST VisLab member, MPhil in CSE

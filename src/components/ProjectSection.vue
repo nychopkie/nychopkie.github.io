@@ -1,5 +1,5 @@
 <template>
-    <section class="relative w-full h-screen flex items-center justify-center" data-aos="fade-up">
+    <section class="relative w-full h-screen flex items-center justify-center" data-aos="fade-up" id="projects">
         <h1 class="">Projects I Participated</h1>
         <p>Also known as stuff I have done or is currently doing</p>
         <!-- some projects to include
