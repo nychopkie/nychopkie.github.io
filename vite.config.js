@@ -4,7 +4,9 @@ import vue from '@vitejs/plugin-vue'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '', // Replace <REPONAME> with your actual repository name,
+  base: process.env.NODE_ENV === 'production'
+    ? '/nychopkie.github.io/' // Replace 'your-repo-name' with your actual repository name
+    : '/',
   plugins: [
     vue(),
     tailwindcss(),
