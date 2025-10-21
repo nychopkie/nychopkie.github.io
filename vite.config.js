@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   base: process.env.NODE_ENV === 'production'
-    ? '' // Replace 'your-repo-name' with your actual repository name
+    ? '/nychopkie.github.io/' // Replace 'your-repo-name' with your actual repository name
     : '/',
   plugins: [
     vue(),
