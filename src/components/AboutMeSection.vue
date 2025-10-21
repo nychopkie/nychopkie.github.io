@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-18" id="about_me">
+    <section class="relative w-full h-screen flex items-center justify-center" data-aos="fade-up" id="about_me">
         <!-- About me contents
          1. Name: Wong Hiu Tung (Annie)
          2. Current occupation: MPhil in CSE @ HKUST, under sup, of big boss big man, entrepreneur @ Adapto Technology Limited
@@ -13,7 +13,11 @@
          >> put cv here if need in the future
           -->
         
-        <div class="px-4 xl:pl-16"></div>
+        <div class="max-w-prose px-4">
+            <p class="text-lg leading-relaxed">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates, recusandae laudantium perspiciatis ipsam quasi atque voluptatibus rerum dolorem libero? Consectetur similique magnam nobis harum sint. Possimus blanditiis officiis maiores?
+            </p>
+        </div>
          
     </section>
 </template>
