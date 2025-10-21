@@ -22,8 +22,10 @@
                     </div>
                     <p class="text-gray-600 pt-8 text-center lg:text-left mx-auto max-w-xl">
                         Welcome to my personal webpage! Here you can learn more about me.
-                        <br/>
+                        <br/><br/>
                         I'm currently a MPhil student in Computer Science and Engineering at HKUST and a member of VisLab, working under the supervision of Professor QU Huamin.
+                        <br/><br/>
+                        My research interests include Artificial Intelligence, Human-Computer Interaction, visual-spatial reasoning in computer vision, and enhancing interactions and productivity using digital platforms.
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
