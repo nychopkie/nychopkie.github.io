@@ -1,1 +1,0 @@
-import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as s,a as c}from"./index-DulnZ3BS.js";const r={},a={class:"relative w-full h-screen flex items-center justify-center","data-aos":"fade-up"};function n(f,e){return s(),o("section",a,[...e[0]||(e[0]=[c("h1",{class:""},"About Me Section",-1)])])}const _=t(r,[["render",n]]);export{_ as default};
