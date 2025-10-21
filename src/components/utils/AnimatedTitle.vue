@@ -72,7 +72,7 @@ const props = defineProps({
     // new: how long to show initialText before starting animation (ms)
     initialDelay: {
         type: Number,
-        default: 500
+        default: 100
     }
 })
 
