@@ -133,7 +133,7 @@ const projects = [
     title: 'Collabroative Coding Monitoring Platform',
     type: 'Course Project',
     description: 'Experimentation with cycle GAN to generate smiling faces from detected non-smiling faces. A bit cursed but fun!',
-    tags: ['PyTorch', 'Computer vision', 'GAN'],
+    tags: ['Server', 'Docker', 'cloud computing'],
     links: {
       repo: 'https://github.com/pseusys/dspdavscp'
     }
