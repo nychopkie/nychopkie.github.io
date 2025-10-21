@@ -63,6 +63,16 @@ const props = defineProps({
     backtrackSpeed: {
         type: Number,
         default: 40 // ms per character when deleting
+    },
+    // new: text to show once before any animation begins
+    initialText: {
+        type: String,
+        default: 'Hello!' // if empty, will use fallback when provided
+    },
+    // new: how long to show initialText before starting animation (ms)
+    initialDelay: {
+        type: Number,
+        default: 500
     }
 })
 
@@ -72,6 +82,7 @@ const currentIndex = ref(Math.min(Math.max(0, props.startIndex), Math.max(0, pro
 const displayedText = ref('')
 const typingTimer = ref(null)
 const holdTimer = ref(null)
+const initialTimer = ref(null)
 const isPaused = ref(false)
 const charIndex = ref(0)
 const isBacktracking = ref(false)
@@ -89,9 +100,16 @@ function clearHoldTimer() {
         holdTimer.value = null
     }
 }
+function clearInitialTimer() {
+    if (initialTimer.value) {
+        clearTimeout(initialTimer.value)
+        initialTimer.value = null
+    }
+}
 function clearAllTimers() {
     clearTypingTimer()
     clearHoldTimer()
+    clearInitialTimer()
 }
 
 /* Typing logic */
@@ -237,7 +255,23 @@ function resume() {
 
 /* lifecycle & watchers */
 
-onMounted(start)
+onMounted(() => {
+    // show a default initial text before animation starts
+    const initial = props.initialText || props.fallback || ''
+    if (initial && props.initialDelay > 0) {
+        displayedText.value = initial
+        clearInitialTimer()
+        initialTimer.value = setTimeout(() => {
+            // clear the initial display and begin animation
+            displayedText.value = 'Hello!'
+            start()
+            initialTimer.value = null
+        }, props.initialDelay)
+    } else {
+        // no initial text or zero delay -> start immediately
+        start()
+    }
+})
 onUnmounted(stop)
 
 watch(
