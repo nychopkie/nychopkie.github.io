@@ -1,1 +1,0 @@
-import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as s,o,a as c}from"./index-Df4ekcpM.js";const a={},n={class:"relative w-full h-screen flex items-center justify-center","data-aos":"fade-up"};function r(f,e){return o(),s("section",n,[...e[0]||(e[0]=[c("h1",{class:""},"Lets keep in touch!",-1)])])}const _=t(a,[["render",r]]);export{_ as default};
