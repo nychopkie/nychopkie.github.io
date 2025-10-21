@@ -17,7 +17,7 @@
                             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent "><AnimatedTitle /></span>
                         </h1>
                         <h1 class="pt-4 text-text font-bold text-2xl md:text-3xl lg:text-4xl">
-                            I'm Wong Hiu Tung (Annie)
+                            I'm Annie Wong.
                         </h1>
                     </div>
                     <p class="text-gray-600 pt-8 text-center lg:text-left mx-auto max-w-xl">
@@ -37,7 +37,7 @@
                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <span class="absolute inset-0 w-full h-full border-2 border-accent rounded-full transition group-hover:border-primary ease-linear"></span>
                             <span class="relative text-text font-semibold group-hover:-translate-y-0">
-                                Check out my previous endeavors
+                                Check out my projects
                             </span>
                         </button>
                     </div>
