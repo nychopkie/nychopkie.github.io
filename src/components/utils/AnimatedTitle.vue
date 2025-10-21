@@ -19,6 +19,10 @@
 </template>
 
 <script setup>
+import AOS from 'aos';
+import 'aos/dist/aos';
+AOS.init(); 
+
 import { ref, onMounted, onUnmounted, watch, computed } from 'vue'
 
 const props = defineProps({
