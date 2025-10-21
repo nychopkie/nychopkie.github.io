@@ -28,18 +28,23 @@
                         My research interests include Human-Computer Interaction, visual-spatial reasoning in computer vision, and enhancing interactions and productivity using digital platforms.
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
-                            <span class="rounded-full absolute inset-0 w-full h-full bg-accent transition group-hover:bg-primary ease-linear"></span>
-                            <span class="relative text-text font-semibold group-hover:-translate-x-0">
-                                Contact me
-                            </span>
-                        </button>
-                        <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
-                            <span class="absolute inset-0 w-full h-full border-2 border-accent rounded-full transition group-hover:border-primary ease-linear"></span>
-                            <span class="relative text-text font-semibold group-hover:-translate-y-0">
-                                Check out my projects
-                            </span>
-                        </button>
+                        <a href="#contact">
+                            <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
+                                <span class="rounded-full absolute inset-0 w-full h-full bg-accent transition group-hover:bg-primary ease-linear"></span>
+                                <span class="relative text-text font-semibold group-hover:-translate-x-0">
+                                    Contact me
+                                </span>
+                            </button>
+                        </a>
+                        <a href="#projects">
+                            <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
+                                <span class="absolute inset-0 w-full h-full border-2 border-accent rounded-full transition group-hover:border-primary ease-linear"></span>
+                                <span class="relative text-text font-semibold group-hover:-translate-y-0">
+                                    Check out my projects
+                                </span>
+                            </button>
+                        </a>
+                        
                     </div>
                 </div>
                 

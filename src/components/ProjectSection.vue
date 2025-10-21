@@ -1,22 +1,27 @@
 <template>
-    <section class="relative w-full h-screen flex items-center justify-center" data-aos="fade-up" id="projects">
+    <section
+        class="relative w-full min-h-screen flex items-start sm:items-center justify-center py-12 sm:py-0"
+        data-aos="fade-up"
+        id="projects"
+    >
         <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-screen-xl mx-auto relative">
             <div class="max-w-300 px-6 text-center">
                 <h1 class="pt-4 text-text font-bold text-3xl md:text-4xl lg:text-5xl">Projects</h1>
                 <p class="mt-6">Also known as stuff I have done or is currently doing</p>
             </div>
+
             <div class="mt-12 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 <article
                     v-for="(p, i) in projects"
                     :key="p.id ?? i"
-                    class="bg-white/5 border border-gray-700 rounded-lg p-6 flex flex-col shadow-sm hover:shadow-md transition"
+                    class="bg-white/5 border border-gray-700 rounded-lg p-4 md:p-6 flex flex-col shadow-sm hover:shadow-md transition break-words"
                 >
-                    <header class="flex items-start justify-between">
+                    <header class="flex flex-col sm:flex-row sm:items-start justify-between gap-2 sm:gap-0">
                         <h3 class="text-lg font-semibold text-text">{{ p.title }}</h3>
-                        <span class="text-sm text-muted px-2 py-1 rounded bg-muted/10">{{ p.type }}</span>
+                        <span class="text-sm text-muted px-2 py-1 rounded bg-muted/10 whitespace-nowrap">{{ p.type }}</span>
                     </header>
 
-                    <p class="mt-3 text-sm text-muted flex-1">{{ p.description }}</p>
+                    <p class="mt-3 text-sm text-muted flex-1 break-words">{{ p.description }}</p>
 
                     <div class="mt-4 flex flex-wrap gap-2">
                         <span
@@ -28,13 +33,13 @@
                         </span>
                     </div>
 
-                    <div class="mt-5 flex gap-3">
+                    <div class="mt-5 flex flex-wrap gap-3">
                         <a
                             v-if="p.links?.live"
                             :href="p.links.live"
                             target="_blank"
                             rel="noopener"
-                            class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium rounded bg-primary transition text-white hover:bg-accent ease-linear"
+                            class="inline-flex w-full sm:w-auto items-center justify-center px-3 py-2 text-sm font-medium rounded bg-primary transition text-white hover:bg-accent ease-linear"
                         >
                             Demo
                         </a>
@@ -44,7 +49,7 @@
                             :href="p.links.overview"
                             target="_blank"
                             rel="noopener"
-                            class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium rounded bg-primary transition text-white hover:bg-accent ease-linear"
+                            class="inline-flex w-full sm:w-auto items-center justify-center px-3 py-2 text-sm font-medium rounded bg-primary transition text-white hover:bg-accent ease-linear"
                         >
                             Overview
                         </a>
@@ -54,7 +59,7 @@
                             :href="p.links.repo"
                             target="_blank"
                             rel="noopener"
-                            class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium rounded border border-gray-700 text-text transition hover:bg-accent hover:text-white ease-linear"
+                            class="inline-flex w-full sm:w-auto items-center justify-center px-3 py-2 text-sm font-medium rounded border border-gray-700 text-text transition hover:bg-accent hover:text-white ease-linear"
                         >
                             Code
                         </a>
@@ -64,7 +69,7 @@
                             :href="p.links.paper"
                             target="_blank"
                             rel="noopener"
-                            class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium rounded border border-gray-700 text-text transition hover:bg-accent hover:text-white ease-linear"
+                            class="inline-flex w-full sm:w-auto items-center justify-center px-3 py-2 text-sm font-medium rounded border border-gray-700 text-text transition hover:bg-accent hover:text-white ease-linear"
                         >
                             Paper
                         </a>
@@ -74,29 +79,19 @@
                             :href="p.links.secondary"
                             target="_blank"
                             rel="noopener"
-                            class="inline-flex items-center justify-center px-3 py-2 text-sm font-medium rounded border border-gray-700 text-text transition hover:bg-accent hover:text-white ease-linear"
+                            class="inline-flex w-full sm:w-auto items-center justify-center px-3 py-2 text-sm font-medium rounded border border-gray-700 text-text transition hover:bg-accent hover:text-white ease-linear"
                         >
                             {{ p.links.secondaryText ?? 'Notes' }}
                         </a>
 
-                        <span v-if="!p.links || Object.keys(p.links).length === 0" class="text-sm text-muted">No links</span>
+                        <span v-if="!p.links || Object.keys(p.links).length === 0" class="text-sm text-muted w-full">No links</span>
                     </div>
                 </article>
             </div>
-            <!-- some projects to include
-            1. Qbuddy >> rmb to insert website link here
-            2. hackathon projects:
-            3. (if future have) research projects
-            4. (if future have) games
-            5. NodeNote if finished
-            6. Course projects: 
-                - cursed smile transformer
-                - java game (also cursed)
-                - the cloud platform for the collaborative coding hw monitoring-->
         </div>
-    
     </section>
 </template>
+
 <script setup>
 const projects = [
   {
