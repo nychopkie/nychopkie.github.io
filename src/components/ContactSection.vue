@@ -1,16 +1,47 @@
 <template>
     <section class="relative w-full h-screen flex items-center justify-center" data-aos="fade-up" id="contact">
-        <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-screen-xl mx-auto relative">
-            <div class="max-w-300 px-6 text-center">
-                <h1 class="pt-4 text-text font-bold text-3xl md:text-4xl lg:text-5xl">Contact</h1>
+        <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-screen-xl mx-auto relative flex flex-col items-center justify-center h-full">
+            <div class="px-6 text-center">
+            <h1 class="pt-4 text-text font-bold text-3xl md:text-4xl lg:text-5xl">Contact</h1>
             </div>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam unde consectetur autem suscipit atque, voluptas iusto distinctio. Quam, porro pariatur rerum, expedita saepe cum deleniti quia quod, officiis harum magnam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eum aperiam possimus, impedit accusamus vel officia dolores, quidem placeat minus ipsum nisi reiciendis delectus velit eaque vitae? Voluptatibus, ipsum consequuntur.lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates, recusandae laudantium perspiciatis ipsam quasi atque voluptatibus rerum dolorem libero? Consectetur similique magnam nobis harum sint. Possimus blanditiis officiis maiores?
-            <h1 class="">Lets keep in touch!</h1>
             <!-- contacts to put:
             1. Currently @ HKUST VisLab member, MPhil in CSE
             2. email: school email, or the wonghtannie one for business purpose
             3. LinkedIn
             4. Github for projects -->
+            <div class="mt-8 flex flex-col items-start justify-center gap-6 max-w-2xl w-full px-6 md:px-8 lg:px-10">
+            <a href="mailto:wonghtannie@gmail.com" class="w-full max-w-xl flex items-center gap-6 p-6 rounded-lg bg-white/5 hover:bg-white/6 transition transform hover:scale-105">
+                <svg class="w-10 h-10 md:w-12 md:h-12" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M3 6.5v11A2.5 2.5 0 0 0 5.5 20h13A2.5 2.5 0 0 0 21 17.5v-11A2.5 2.5 0 0 0 18.5 4h-13A2.5 2.5 0 0 0 3 6.5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 7.5l-9 6-9-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <div>
+                <div class="text-lg md:text-xl font-medium">Email (business)</div>
+                <div class="text-sm text-muted">wonghtannie (at) gmail.com</div>
+                </div>
+            </a>
+
+            <a href="mailto:htwongbe@connect.ust.hk" class="w-full max-w-xl flex items-center gap-6 p-6 rounded-lg bg-white/5 hover:bg-white/6 transition transform hover:scale-105">
+                <svg class="w-10 h-10 md:w-12 md:h-12" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M3 6.5v11A2.5 2.5 0 0 0 5.5 20h13A2.5 2.5 0 0 0 21 17.5v-11A2.5 2.5 0 0 0 18.5 4h-13A2.5 2.5 0 0 0 3 6.5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 7.5l-9 6-9-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <div>
+                <div class="text-lg md:text-xl font-medium">Email (school)</div>
+                <div class="text-sm text-muted">htwongbe (at) connect.ust.hk</div>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/hiutungwong-hehehehe" target="_blank" rel="noopener noreferrer" class="w-full max-w-xl flex items-center gap-6 p-6 rounded-lg bg-white/5 hover:bg-white/6 transition transform hover:scale-105">
+                <svg class="w-10 h-10 md:w-12 md:h-12" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-4 0v6h-4v-12h4v2.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="9" width="4" height="12" rx="1" stroke="currentColor" stroke-width="1.5"/><circle cx="4" cy="5" r="2" stroke="currentColor" stroke-width="1.5"/></svg>
+                <div>
+                <div class="text-lg md:text-xl font-medium">LinkedIn</div>
+                <div class="text-sm text-muted">linkedin.com/in/hiutungwong-hehehehe</div>
+                </div>
+            </a>
+
+            <a href="https://github.com/nychopkie" target="_blank" rel="noopener noreferrer" class="w-full max-w-xl flex items-center gap-6 p-6 rounded-lg bg-white/5 hover:bg-white/6 transition transform hover:scale-105">
+                <svg class="w-10 h-10 md:w-12 md:h-12" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M12 2c-5.5 0-10 4.5-10 10 0 4.4 2.9 8.1 6.9 9.4.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1-1-1.2-1-1.2-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.7.1-.6.3-1 .5-1.2-2.2-.3-4.5-1.1-4.5-4.9 0-1.1.4-2 1.1-2.8-.1-.3-.5-1.3.1-2.8 0 0 .9-.3 2.8 1.1a9.7 9.7 0 0 1 5.1 0c1.9-1.5 2.8-1.1 2.8-1.1.6 1.5.2 2.5.1 2.8.7.8 1.1 1.7 1.1 2.8 0 3.8-2.4 4.6-4.6 4.9.3.3.6.8.6 1.6v2.4c0 .3.2.6.7.5A10 10 0 0 0 22 12c0-5.5-4.5-10-10-10z" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <div>
+                <div class="text-lg md:text-xl font-medium">GitHub</div>
+                <div class="text-sm text-muted">github.com/nychopkie</div>
+                </div>
+            </a>
+            </div>
         </div>
         
     </section>

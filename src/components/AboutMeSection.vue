@@ -18,7 +18,16 @@
                 <h1 class="pt-4 text-text font-bold text-3xl md:text-4xl lg:text-5xl">About me</h1>
             </div>
             <div class="mt-8 md:mt-12 lg:mt-16">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam unde consectetur autem suscipit atque, voluptas iusto distinctio. Quam, porro pariatur rerum, expedita saepe cum deleniti quia quod, officiis harum magnam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eum aperiam possimus, impedit accusamus vel officia dolores, quidem placeat minus ipsum nisi reiciendis delectus velit eaque vitae? Voluptatibus, ipsum consequuntur.lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates, recusandae laudantium perspiciatis ipsam quasi atque voluptatibus rerum dolorem libero? Consectetur similique magnam nobis harum sint. Possimus blanditiis officiis maiores?
+                Wong Hiu Tung (Annie) is currently pursuing an MPhil in Computer Science and Engineering at HKUST, where she is a member of VisLab under the supervision of Professor QU Huamin. She completed her bachelor's degree in Computer Science and Engineering at HKUST in 2025. Currently, she is also in a start up project alongside her friends in educational technology.
+                When she is not busy with school and serious business, you might see her taking long walks around the city, or lounging in a corner with a goodbook.
+            </div>
+            <div class="mt-3 md:mt-6 lg:mt-6">
+                Fun facts about Annie:
+                <ul class="list-disc list-inside mt-2">
+                    <li>She can eat an entire box of Tic Tacs in 2 minutes (this is horrifying, I agree)</li>
+                    <li>She likes fun facts</li>
+                    <li>She sometimes takes VERY long walks</li>
+                </ul>
             </div>
         </div>
          
