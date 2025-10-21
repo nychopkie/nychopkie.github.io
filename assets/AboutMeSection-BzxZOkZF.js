@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,o as s,a as c}from"./index-FZQlBrEU.js";const n={},r={class:"mt-18",id:"about_me"};function a(l,e){return s(),t("section",r,[...e[0]||(e[0]=[c("div",{class:"px-4 xl:pl-16"},null,-1)])])}const m=o(n,[["render",a]]);export{m as default};
