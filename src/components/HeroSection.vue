@@ -54,7 +54,7 @@ import 'aos/dist/aos';
 AOS.init(); 
 // import Components Asyncronously
 import { defineAsyncComponent } from 'vue';
-const AnimatedTitle = defineAsyncComponent(() => import('./utils/AnimatedTitle.vue'));
+const AnimatedTitle = defineAsyncComponent(() => import('./AnimatedTitle.vue'));
 </script>
 <style scoped> 
 </style>
