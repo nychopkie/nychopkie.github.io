@@ -27,6 +27,7 @@
                     <li>She can eat an entire box of Tic Tacs in 2 minutes (this is horrifying, I agree)</li>
                     <li>She likes fun facts</li>
                     <li>She sometimes takes VERY long walks</li>
+                    <li>She is into Internet cultures and history, and how communities interact (aka argue) online!</li>
                 </ul>
             </div>
         </div>

@@ -137,6 +137,16 @@ const projects = [
     links: {
       repo: 'https://github.com/pseusys/dspdavscp'
     }
+  },
+  {
+    id: 'comp6411d',
+    title: 'Visulization Project for Bots on Social Media',
+    type: 'Course Project',
+    description: 'Have you wondered how bots behave on social media platforms? This project delves into the patterns and behaviors of automated accounts using Tableau for data visualization.',
+    tags: ['COMP6411D', 'Tableau', 'Data viz'],
+    links: {
+      live: 'https://nychopkie.github.io/SMS_bot_vis/main.html'
+    }
   }
 ]
 </script>
