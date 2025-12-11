@@ -4,6 +4,7 @@
     <HeroSection />
     <AboutMeSection id="about"/>
     <ProjectSection id="projects"/>
+    <!-- Add a publications section here in future when i have more -->
     <ContactSection id="contact"/>
     <GameSection id="game"/>
   </div>

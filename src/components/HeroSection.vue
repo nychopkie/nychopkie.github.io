@@ -23,9 +23,9 @@
                     <p class="text-gray-600 pt-8 text-center lg:text-left mx-auto max-w-xl">
                         Welcome to my personal webpage! Here you can learn more about me.
                         <br/><br/>
-                        I'm currently a MPhil student in Computer Science and Engineering at HKUST and a member of VisLab, working under the supervision of Professor QU Huamin.
+                        I'm currently a MPhil student in Computer Science and Engineering at HKUST and a member of <a href="http://vis.cse.ust.hk/index.html" class=" text-text-link hover:text-text-link-hover">VisLab</a>, working under the supervision of <a href="http://huamin.org/" class="text-text-link hover:text-text-link-hover">Professor QU Huamin</a>.
                         <br/><br/>
-                        My research interests include Human-Computer Interaction, visual-spatial reasoning in computer vision, and enhancing interactions and productivity using digital platforms.
+                        My research interests include Human-Computer Interaction, visual-spatial reasoning in computer vision, enhansing education using AI and Ed-Tech, and interactive agents and visualizations.
                     </p>
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <a href="#contact">

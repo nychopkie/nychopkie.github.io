@@ -18,7 +18,9 @@
                 <h1 class="pt-4 text-text font-bold text-3xl md:text-4xl lg:text-5xl">About me</h1>
             </div>
             <div class="mt-8 md:mt-12 lg:mt-16">
-                Wong Hiu Tung (Annie) is currently pursuing an MPhil in Computer Science and Engineering at HKUST, where she is a member of VisLab under the supervision of Professor QU Huamin. She completed her bachelor's degree in Computer Science and Engineering at HKUST in 2025. Currently, she is also in a start up project alongside her friends in educational technology.
+                Wong Hiu Tung (Annie) is currently pursuing a MPhil in Computer Science and Engineering at HKUST, where she is a member of <a href="http://vis.cse.ust.hk/index.html" class=" text-text-link hover:text-text-link-hover">HKUST VisLab</a> under the supervision of <a href="http://huamin.org/" class="text-text-link hover:text-text-link-hover">Professor QU Huamin</a>. 
+                She completed her bachelor's degree in Computer Science and Engineering at HKUST in 2025. 
+                Currently, she is also in a start up project alongside her friends in educational technology.
                 When she is not busy with school and serious business, you might see her taking long walks around the city, or lounging in a corner with a goodbook.
             </div>
             <div class="mt-3 md:mt-6 lg:mt-6">
@@ -27,6 +29,7 @@
                     <li>She can eat an entire box of Tic Tacs in 2 minutes (this is horrifying, I agree)</li>
                     <li>She likes fun facts</li>
                     <li>She sometimes takes VERY long walks</li>
+                    <li>She is into Internet cultures and history, and how communities interact (aka argue) online!</li>
                 </ul>
             </div>
         </div>

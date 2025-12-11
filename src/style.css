@@ -7,6 +7,9 @@
   --color-accent: #73ac99;
   --color-background: #edf0ef;
   --color-text: #44485a;
+  --color-text-link: #2a9d8f;
+  --color-text-link-hover: #21867a;
+  --color-text-link-clicked: #17675f;
 }
 
 * {

@@ -98,7 +98,7 @@ const projects = [
     id: 'qbuddy',
     title: 'Qbuddy',
     type: 'CityU Tech300',
-    description: 'Entrepreneurial project: A personlaized question generation website for Hong Kong Primary students. ',
+    description: 'Entrepreneurial project: A personalized question generation website for Hong Kong Primary students. Check it out!',
     tags: ['Ed Tech', 'Agents', 'MCP'],
     links: {
       live: 'https://qbuddy.com.hk/',
@@ -110,7 +110,7 @@ const projects = [
     id: 'qbuddy_image_gen',
     title: 'Math Diagram Generation',
     type: 'MCP',
-    description: 'An image generation system for generating diagrams for mathematics questions based on the question provided. Designed to complement Qbuddy.',
+    description: 'An image generation system for generating diagrams for mathematics questions based on the question provided. Designed to complement Qbuddy. Accepted work at International Conference on Educational Technology (ICET) 2025.',
     tags: ['python', 'Agents', 'LLMs'],
     links: {
       live: 'To be added soon',
@@ -132,10 +132,20 @@ const projects = [
     id: 'comp4651',
     title: 'Collabroative Coding Monitoring Platform',
     type: 'Course Project',
-    description: 'Experimentation with cycle GAN to generate smiling faces from detected non-smiling faces. A bit cursed but fun!',
+    description: 'A web-based platform to monitor and visualize coding activities of students in real-time for instructors, helping to identify students who may need assistance during coding homeworks.',
     tags: ['Server', 'Docker', 'cloud computing'],
     links: {
       repo: 'https://github.com/pseusys/dspdavscp'
+    }
+  },
+  {
+    id: 'comp6411d',
+    title: 'Visulization Project for Bots on Social Media',
+    type: 'Course Project',
+    description: 'Have you wondered how bots behave on social media platforms? This project delves into the patterns and behaviors of automated accounts using Tableau for data visualization.',
+    tags: ['COMP6411D', 'Tableau', 'Data viz'],
+    links: {
+    live: 'https://nychopkie.github.io/SMS_bot_vis/main.html'
     }
   }
 ]
