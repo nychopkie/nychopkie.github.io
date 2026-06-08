@@ -113,9 +113,7 @@ const projects = [
     description: 'An image generation system for generating diagrams for mathematics questions based on the question provided. Designed to complement Qbuddy. Accepted work at International Conference on Educational Technology (ICET) 2025.',
     tags: ['python', 'Agents', 'LLMs'],
     links: {
-      live: 'To be added soon',
-      repo: 'To be added soon',
-      paper: 'To be added soon'
+      paper: 'https://ieeexplore.ieee.org/document/11380681'
     }
   },
   {
@@ -145,7 +143,7 @@ const projects = [
     description: 'Have you wondered how bots behave on social media platforms? This project delves into the patterns and behaviors of automated accounts using Tableau for data visualization.',
     tags: ['COMP6411D', 'Tableau', 'Data viz'],
     links: {
-    live: 'https://nychopkie.github.io/SMS_bot_vis/main.html'
+    live: 'https://nychopkie.github.io/SMS_bot_vis/'
     }
   }
 ]
